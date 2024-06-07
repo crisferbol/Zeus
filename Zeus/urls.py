@@ -21,7 +21,7 @@ from Hercules.views import saludo, saludoRojo, saludoVerde
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('saludo/', saludo),
-    path('saludo-rojo/', saludoRojo),
+    path('saludo-rojo/', ),
     path('saludo-verde/', saludoVerde),
     
 ]
